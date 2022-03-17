@@ -1,0 +1,291 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .hero-section {
+    max-width: 120rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px */
+    font-size: 56.25%;
+  }
+
+  .app-text-box {
+    width: 85%;
+  }
+
+  .label {
+    gap: 1.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 1000px (
+/**************************/
+@media (max-width: 63em) {
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  .main-nav-list {
+    gap: 1.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    gap: 0.2rem;
+  }
+
+  .heading-hero {
+    line-height: 1.4;
+  }
+
+  .app-text-box {
+    height: 70%;
+    width: 90%;
+  }
+
+  .form {
+    width: 45%;
+    height: 70%;
+  }
+
+  .label {
+    gap: 1.7rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    width: 100%;
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .logo-link,
+  .main-nav,
+  .cta-account {
+    display: none;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .logo-link span {
+    letter-spacing: 2.95px;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .hero-container {
+    display: block;
+    padding: 0;
+  }
+
+  .heading-hero {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-hero:link,
+  .btn-hero:visited {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7.6rem;
+  }
+  .subheading {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .logo-brand {
+    margin: 0 auto;
+    justify-items: center;
+    width: 50%;
+  }
+
+  .hero-img-box {
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .testimonial-svg {
+    transform: scale(1);
+  }
+
+  .app-text-box {
+    width: 100%;
+    padding: 1.4rem;
+  }
+  /* FORM */
+  .form {
+    width: 60rem;
+    height: 50rem;
+  }
+}
+
+/**************************/
+/* BELOW 795px
+/**************************/
+@media (max-width: 50em) {
+  .heading-secondary {
+    text-align: center;
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem;
+  }
+
+  .featured-desctiption {
+    font-size: 1.4rem;
+  }
+
+  .grid-app {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-text-box {
+    width: 70%;
+    padding: 1.8rem;
+  }
+
+  .app-heading-description {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .app-description {
+    font-size: 1.4rem;
+  }
+  .app-img {
+    width: 55%;
+  }
+
+  .footer-grid {
+    /* width: 100%; */
+    grid-template-columns: 4.5fr 1.5fr 1.5fr;
+    row-gap: 4.8rem;
+  }
+  .bank-detail-col {
+    grid-row: span 2;
+  }
+}
+
+/**************************/
+/* BELOW 660px */
+/**************************/
+@media (max-width: 42em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+  .header-nav {
+    padding: 0 1.6rem;
+  }
+
+  .heading-hero {
+    font-size: 1.5rem;
+  }
+  .hero-text {
+    padding-top: 10rem;
+  }
+
+  .logo-brand {
+    width: 85%;
+  }
+
+  .featured {
+    padding: 12.8rem 4.8rem 0;
+  }
+
+  .featured-gap {
+    grid-template-columns: 1fr;
+  }
+  .featured-img-box:nth-child(3) {
+    grid-row: 4;
+  }
+
+  .featured-app {
+    padding: 12.8rem 3.2rem;
+  }
+
+  .app-text-box {
+    width: 80%;
+  }
+  .pricing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4.8rem 2.4rem;
+  }
+  .pricing-description {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .pricing-link:link,
+  .pricing-link:visited {
+    display: block;
+  }
+  .feedback {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .heading-testimonial {
+    padding: 0 1.2rem;
+  }
+  figure {
+    width: 80%;
+  }
+  .fig-start {
+    justify-self: center;
+  }
+  .testimonial-svg {
+    width: 55%;
+  }
+  .testimonial-bottom {
+    left: 10rem;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bank-detail-col {
+    grid-column: span 2;
+    grid-row: 3;
+  }
+  .footer-intro {
+    width: 100%;
+  }
+  .form {
+    width: 50rem;
+    height: 40rem;
+  }
+}

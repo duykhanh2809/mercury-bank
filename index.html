@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Project Bankist by Nguyen Duy Khanh - HCMUT"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo_favicon.png" />
+    <link rel="apple-touch-icon" href="img\logo_appletouch.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Mercury Bank &mdash; NDK</title>
+    <script
+      type="module"
+      defer
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      defer
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <a href="#" class="logo-link"
+          ><img src="img\logo.svg" class="logo" alt="Logo of bank" /><span
+            >Mercury</span
+          ></a
+        >
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="product-details">
+              <a href="#app" class="main-nav-link product-link">
+                <span>Sản phẩm</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </a>
+              <div class="product-nav-details">
+                <a href="#" class="main-nav-detail">Sản phẩm demo</a>
+                <a href="#" class="main-nav-detail">Định giá</a>
+                <a href="#" class="main-nav-detail">Đặc quyền đối tác</a>
+              </div>
+            </li>
+            <li class="about-details">
+              <a href="#featured" class="main-nav-link about-link">
+                <span>Về chúng tôi</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </a>
+              <div class="about-nav-details">
+                <a href="#" class="main-nav-detail">Sứ mệnh</a>
+                <a href="#" class="main-nav-detail">Việc làm</a>
+                <a href="#" class="main-nav-detail">Câu hỏi thường gặp</a>
+              </div>
+            </li>
+            <li class="community-details">
+              <a href="#testimonials" class="main-nav-link community-link">
+                <span>Cộng đồng</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </a>
+              <div class="community-nav-details">
+                <a href="#" class="main-nav-detail">Kênh nhà đầu tư</a>
+                <a href="#" class="main-nav-detail">Kênh khách hàng</a>
+                <a href="#" class="main-nav-detail">Trao đổi đối tác</a>
+                <a href="#" class="main-nav-detail">Tạo quảng cáo</a>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="main-nav-link">
+                <span>Ngân hàng số</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cta-account">
+          <a href="#" class="btn btn-second margin-right-sm">Đăng nhập</a>
+          <a href="#" class="btn btn-main btn-cta">Mở tài khoản</a>
+        </div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav hidden"
+            name="close-outline"
+          ></ion-icon>
+        </button>
+        <div class="nav-options">
+          <a href="#app" class="nav-option-link">
+            <span>Sản phẩm</span>
+          </a>
+
+          <a href="#featured" class="nav-option-link">
+            <span>Về chúng tôi</span>
+          </a>
+
+          <a href="#testimonials" class="nav-option-link">
+            <span>Cộng đồng</span>
+          </a>
+
+          <a href="#" class="nav-option-link">
+            <span>Ngân hàng số</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1 class="heading-primary">
+              Ngân hàng số <br />
+              Chuyển đổi số
+            </h1>
+            <p class="heading-hero">
+              Mang đến sự an toàn, công nghệ tiên tiến và lãi suất hợp lý.
+            </p>
+            <a href="#" class="btn btn-hero btn-cta margin-bottom-lg"
+              >Mở tài khoản</a
+            >
+            <span class="subheading">Các đối tác của chúng tôi</span>
+            <div class="logo-brand grid">
+              <img class="logo-img" src="img/logo/OCB.png" alt="OCB" />
+              <img class="logo-img" src="img/logo/BIDV.png" alt="Vietcombank" />
+              <img class="logo-img" src="img/logo/MB.png" alt="Vietcombank" />
+              <img class="logo-img" src="img/logo/VCB.png" alt="Vietcombank" />
+              <img class="logo-img" src="img/logo/TCB.png" alt="Techcombank" />
+              <img class="logo-img" src="img/logo/TPBank.png" alt="TP Bank" />
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img src="img\background.svg" class="hero-img-test" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="featured" id="featured">
+        <div class="container margin-bottom-ex">
+          <span class="subheading">Các tính năng mà chúng tôi cung cấp</span>
+          <h2 class="heading-secondary margin-top-sm">
+            Giúp bạn tiết kiệm và quản lý tài chính thông minh
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols featured-gap">
+          <div class="featured-text-box">
+            <h3 class="heading-tertiary">Tài khoản được bảo vệ kỹ lưỡng</h3>
+            <p class="featured-description">
+              Với việc áp dụng các kỹ thuật bảo mật tiên tiến, chúng tôi tự tin
+              đảm bảo tài khoản của bạn được an toàn đến 99%.
+            </p>
+          </div>
+          <div class="featured-img-box">
+            <img
+              class="feature-img lazy-img"
+              src="img/feature1_bonus_lazy.jpg"
+              data-src="img/feature1_bonus.jpg"
+              alt="Đảm bảo các tài khoản luôn được an toàn"
+            />
+          </div>
+          <div class="featured-img-box">
+            <img
+              class="feature-img lazy-img"
+              src="img/featured2_lazy.jpg"
+              data-src="img/featured2.jpg"
+              alt="Quy trình đăng kí và cấp thẻ vật lý nhanh chóng"
+            />
+          </div>
+          <div class="featured-text-box">
+            <h3 class="heading-tertiary">Thẻ vật lý và thẻ ảo</h3>
+            <p class="featured-description">
+              Bạn sẽ nhận được thẻ vật lý sớm nhất có thể và thẻ ảo chỉ sau vài
+              cú click chuột.
+            </p>
+          </div>
+          <div class="featured-text-box">
+            <h3 class="heading-tertiary">Ứng dụng thân thiện</h3>
+            <p class="featured-description">
+              Bạn có thể thực hiện hầu hết các khoản thanh toán qua ứng dụng của
+              chúng tôi, đem đến cho bạn trải nghiệm sử dụng tuyệt vời nhất.
+            </p>
+          </div>
+          <div class="featured-img-box">
+            <img
+              class="feature-img lazy-img"
+              src="img/featured3_lazy.jpg"
+              data-src="img/featured3.jpg"
+              alt="Chuyển tiền miễn phí và nhanh chóng"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="featured-app" id="app">
+        <div class="container margin-bottom-lg featured-app-flex">
+          <span class="subheading">Mercury Banking App</span>
+          <h2 class="heading-secondary margin-top-sm">
+            Những gì bạn cần đã có sẵn trong một ứng dụng
+          </h2>
+        </div>
+        <div class="container grid grid-app">
+          <!-- <div class="app-descriptions"> -->
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon class="app-icon" name="globe-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f4dbfcc6d766686c4a0e_icon-global.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">
+                Tùy chọn tên làm số tài khoản
+              </p>
+              <p class="app-description">
+                Tự do lựa chọn số tài khoản theo tên Shop, Nickname qua App
+              </p>
+            </div>
+          </div>
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f4f00d5930b4a4f1082e_icon-privacy.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">Định danh eKYC chỉ 5s</p>
+              <p class="app-description">
+                Mở Tài khoản Số tự chọn cùng dịch vụ ngân hàng trực tuyến trên
+                app
+              </p>
+            </div>
+          </div>
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon name="arrow-forward-circle-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f4e79d4467c4ded7b039_icon-integrations.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">
+                Miễn phí chuyển tiền và 60 loại phí
+              </p>
+              <p class="app-description">
+                Chuyển tiền liên ngân hàng miễn phí, chỉ trong 8 giây
+              </p>
+            </div>
+          </div>
+          <!-- </div> -->
+          <div class="app-image">
+            <img
+              class="app-img"
+              src="img/mobile-app.png"
+              alt="Mercury Banking App Description"
+            />
+          </div>
+          <!-- <div class="app-descriptions"> -->
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon name="card-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f5284c057c61b9e3642e_Support.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">Quản lý thẻ tiện lợi</p>
+              <p class="app-description">
+                Cung cấp giao diện thông minh, hiện đại dễ dàng trong quản lý và
+                sử dụng
+              </p>
+            </div>
+          </div>
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon name="wifi-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f4c770739c5824786572_icon-connect.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">Thanh toán tiện lợi</p>
+              <p class="app-description">
+                Một nút chạm thanh toán hóa đơn điện, nước, internet và truyền
+                hình...
+              </p>
+            </div>
+          </div>
+          <div class="app-text-box">
+            <div class="app-icon">
+              <!-- <ion-icon name="recording-outline"></ion-icon> -->
+              <img
+                src="https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/6158f4d193bb553406a2892a_icon-earn.svg"
+                loading="lazy"
+                alt=""
+                class="icon-small"
+              />
+            </div>
+            <div>
+              <p class="app-heading-description">
+                Giao dịch miễn phí với eToken+
+              </p>
+              <p class="app-description">
+                Bảo mật an toàn tuyệt đối, chuyển tiền online tới 5 tỷ đồng/ngày
+              </p>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+      <section class="section-pricing">
+        <div class="pricing-container">
+          <div class="pricing-description">
+            <h2 class="heading-pricing">Hoàn toàn miễn phí</h2>
+            <p class="pricing-detail">
+              Không có thấu chi, yêu cầu số dư tối thiểu, bạn hoàn toàn có thể
+              yên tâm về việc quản lý tài chính của mình
+            </p>
+            <a href="#" class="btn btn-price pricing-link"
+              >Xem đầy đủ
+
+              <ion-icon
+                class="icon-price"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </a>
+          </div>
+          <div class="pricing-option">
+            <p class="pricing-heading">Tiêu chuẩn</p>
+            <div class="pricing-line"></div>
+            <p class="option-description">
+              Không yêu cầu số dư tối thiểu, mở tài khoản miễn phí, bảo mật cao,
+              chuyển khoản miễn phí 24/7 và hơn thế nữa.
+            </p>
+          </div>
+          <div class="pricing-option">
+            <p class="pricing-heading">Đặc biệt</p>
+            <div class="pricing-line pricing-line-second"></div>
+            <p class="option-description">
+              Với số dư trên 100.000.000 VNĐ sẽ có quyền sớm truy cập vào các
+              tính năng beta, hỗ trợ thông báo qua điện thoại và còn hơn thế
+              nữa.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="heading-testimonial margin-bottom-lg">
+            Phản hồi từ khách hàng của chúng tôi
+          </h2>
+
+          <div class="feedback grid grid--2-cols">
+            <figure class="figure">
+              <div class="heading-feedback">
+                <div class="customer-img">
+                  <img src="img/uifaces/1.jpg" alt="Customer image" />
+                </div>
+                <div class="customer-detail">
+                  <p class="customer-name">Trần Tuấn A</p>
+                  <p class="customer-job">Web Developer</p>
+                </div>
+              </div>
+              <blockquote class="quote">
+                "Thiết kế sản phẩm đẹp, trực quan, trang nhã là lý do chính
+                khiến tôi yêu thích Mercury. Nếu bạn là startup hoặc creator,
+                đây là sản phẩm ngân hàng bạn cần"
+              </blockquote>
+            </figure>
+            <figure class="figure fig-start">
+              <div class="heading-feedback">
+                <div class="customer-img">
+                  <img src="img/uifaces/2.jpg" alt="Customer image" />
+                </div>
+                <div class="customer-detail">
+                  <p class="customer-name">Mai Hồng C</p>
+                  <p class="customer-job">Web Developer</p>
+                </div>
+              </div>
+              <blockquote class="quote">
+                "Thiết kế sản phẩm đẹp, trực quan, trang nhã là lý do chính
+                khiến tôi yêu thích Mercury. Nếu bạn là startup hoặc creator,
+                đây là sản phẩm ngân hàng bạn cần"
+              </blockquote>
+            </figure>
+            <figure class="figure">
+              <div class="heading-feedback">
+                <div class="customer-img">
+                  <img src="img/uifaces/3.jpg" alt="Customer image" />
+                </div>
+                <div class="customer-detail">
+                  <p class="customer-name">Nguyễn Duy B</p>
+                  <p class="customer-job">Designer & Developer</p>
+                </div>
+              </div>
+              <blockquote class="quote">
+                "Tôi có thể sử dụng thẻ ảo rất dễ dàng. Ngoài ra, là một dev,
+                tôi thích với việc Mercury có một API để chấp nhận và gửi thanh
+                toán mà không mất quá nhiều chi phí"
+              </blockquote>
+            </figure>
+
+            <figure class="figure fig-start">
+              <div class="heading-feedback">
+                <div class="customer-img">
+                  <img src="img/uifaces/4.jpg" alt="Customer image" />
+                </div>
+                <div class="customer-detail">
+                  <p class="customer-name">Hà Anh D</p>
+                  <p class="customer-job">Singer</p>
+                </div>
+              </div>
+              <blockquote class="quote">
+                "Tôi thích những chi tiết tinh tế và thú vị trong sản phẩm
+                Mercury, chẳng hạn như có thể nhấp để sao chép số tài khoản. Với
+                tôi đây là sản phẩm đơn giản nhưng tuyệt vời"
+              </blockquote>
+            </figure>
+          </div>
+          <img
+            class="testimonial-svg"
+            src="img\testimonial.svg"
+            alt="Background Testimonial"
+          />
+          <span class="testimonial-bottom"
+            >"Chúng tôi luôn lắng nghe bạn."</span
+          >
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container">
+          <div class="container margin-bottom-lg">
+            <span class="subheading">Join Mercury</span>
+            <h2 class="heading-cta margin-top-sm">Mở tài khoản ngay bây giờ</h2>
+          </div>
+          <a href="#" class="btn btn-cta btn-cta-end">Đăng kí ngay</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer grid footer-grid">
+      <div class="bank-detail-col">
+        <div class="margin-bottom-ex">
+          <a href="#" class="footer-logo"
+            ><img src="img\logo.svg" alt="Logo bank" /><span>Mercury</span></a
+          >
+
+          <p class="footer-intro">
+            Đây là trang web mô phỏng project trang web ngân hàng với nội dung
+            đều là giả định không có giá trị trong thực tế.
+          </p>
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com/" class="footer-link"
+                ><ion-icon
+                  class="footer-social-logo"
+                  name="logo-twitter"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://fb.com/" class="footer-link"
+                ><ion-icon
+                  class="footer-social-logo"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/" class="footer-link"
+                ><ion-icon
+                  class="footer-social-logo"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright">
+          &copy; Copyright 2022 by Nguyen Duy Khanh - HCMUT
+        </p>
+      </div>
+      <nav class="nav-col">
+        <p class="heading-footer">Về chúng tôi</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Tầm nhìn</a></li>
+          <li><a class="footer-link" href="#">Liên hệ</a></li>
+          <li><a class="footer-link" href="#">Tuyển dụng</a></li>
+          <li><a class="footer-link" href="#">Điểm ATM & Chi nhánh</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="heading-footer">Thẻ thanh toán</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">MCR Platinum</a></li>
+          <li><a class="footer-link" href="#">MCR Classic</a></li>
+          <li><a class="footer-link" href="#">MCR ATM</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="heading-footer">Các khoản vay</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Vay mua xe</a></li>
+          <li><a class="footer-link" href="#">Vay mua nhà</a></li>
+          <li><a class="footer-link" href="#">Vay tiêu dùng</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="heading-footer">Sản phẩm khác</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Bảo hiểm</a></li>
+          <li><a class="footer-link" href="#">Vay kinh doanh</a></li>
+          <li><a class="footer-link" href="#">Tài khoản thanh toán</a></li>
+          <li><a class="footer-link" href="#">Thẻ tín dụng</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <form action="" class="form hidden" netlify>
+      <div class="form-container">
+        <img src="img\logo (2).png" class="logo logo-form" alt="Logo of bank" />
+        <p class="heading-form margin-bottom-md">
+          Đăng kí ngay hôm nay để không bỏ lỡ ưu đãi
+        </p>
+        <div class="form-details grid grid--2-cols margin-bottom-md">
+          <div class="label">
+            <label for="full-name">Họ và tên</label>
+            <label for="male">Giới tính</label>
+            <label for="birthday">Ngày tháng năm sinh</label>
+            <label for="identify">Số CMND/CCCD</label>
+            <label for="phone">Số điện thoại</label>
+            <label for="email">Email</label>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Nguyễn Văn A"
+              required
+            />
+            <div class="radio-flex">
+              <input type="radio" id="male" name="gender" value="Nam" />
+              <label for="male">Nam</label>
+              <input type="radio" id="female" name="gender" value="Nữ" />
+              <label for="female">Nữ</label>
+            </div>
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              value="2000-09-28"
+              required
+            />
+            <input type="text" id="identify" name="identify" required />
+            <input type="tel" id="phone" name="phone" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="me@example.vn"
+            />
+          </div>
+        </div>
+        <button class="btn btn-form margin-bottom-md">Đăng kí</button>
+        <ion-icon class="icon-form" name="close-outline"></ion-icon>
+      </div>
+    </form>
+
+    <div class="overlay hidden"></div>
+  </body>
+</html>
